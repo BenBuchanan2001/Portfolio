@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+  z-index: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: rgba(142, 142, 142, 0.3);
+}
+
+.home-button,
+.about-button,
+.projects-button,
+.contact-button {
+  font-size: 3vh;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home-button:hover,
+.about-button:hover,
+.projects-button:hover,
+.contact-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: rgb(248, 87, 87);
+}
+
+.home-page-pic {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33vh;
+  height: 33vh;
+  background-color: rgb(248, 87, 87);
+  border-radius: 25vh;
+  box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-page-pic1 {
+  align-items: center;
+  justify-content: center;
+  width: 50vh;
+  height: 50vh;
+}
+
+.home-page-pic8 {
+  top: 15%;
+  left: 39%;
+  width: 22vh;
+  height: 22vh;
+  filter: blur(1px);
+}
+
+.home-page-pic10 {
+  top: 80%;
+  left: 75%;
+  width: 18vh;
+  height: 18vh;
+  filter: blur(2px);
+}
+
+.home-page-pic12 {
+  top: 65%;
+  left: 32%;
+  width: 15vh;
+  height: 15vh;
+  filter: blur(2.5px);
+}
+
+.intro {
+  display: flex;
+  position: absolute;
+  width: max-content;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  left: 10%;
+  top: 27%;
+  text-align: right;
+}
+
+.intro-header { 
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.introduction {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.name-title {
+  display: flex;
+  position: absolute;
+  width: max-content;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  left: 65%;
+  top: 38%;
+  right: 10%;
+}
+
+.name { 
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}

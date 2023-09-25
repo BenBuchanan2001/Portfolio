@@ -1,0 +1,134 @@
+body {
+  height: 150vh;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+  z-index: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: rgba(142, 142, 142, 0.3);
+}
+
+.home-button,
+.about-button,
+.projects-button,
+.contact-button {
+  font-size: 3vh;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home-button:hover,
+.about-button:hover,
+.projects-button:hover,
+.contact-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: rgb(248, 87, 87);
+}
+
+.projects-title {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  font-weight: 900;
+  margin: 0;
+  margin-left: 5vh;
+  font-size: 8vh;
+  width: fit-content;
+  height: 15vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.portfolio-image {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  margin-top: 1%;
+  margin-left: 1.5%;
+}
+
+.portfolio-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-title {
+  display: flex;
+  position: absolute;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 50px;
+  color: rgb(248, 87, 87);
+  margin: 0;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.portfolio-txt {
+  display: flex;
+  position: absolute;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 2.5vh;
+  margin-left: 40%;
+  margin-top: 11%;
+  margin-right: 5vh;
+}
+
+.coming-soon-img {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  margin-top: 60vh;
+  margin-left: 1.5%;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.coming-soon-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.coming-soon-title {
+  display: flex;
+  position: absolute;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 50px;
+  color: rgb(248, 87, 87);
+  margin: 0;
+  margin-left: 40%;
+  margin-top: 35%;
+}
+
+.coming-soon-txt {
+  display: flex;
+  position: absolute;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 2.5vh;
+  margin-left: 40%;
+  margin-top: 41%;
+  margin-right: 5vh;
+}
